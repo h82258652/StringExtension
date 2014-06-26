@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Text;
 
 namespace System
 {
@@ -21,15 +22,15 @@ namespace System
                 return value;
             }
             var sb = new StringBuilder(value.Length);
-            foreach (var c in value)
+            foreach (char c in value)
             {
                 if (char.IsUpper(c))
                 {
-                    sb.Append(char.ToLower(c));
+                    sb.Append(char.ToLower(c, CultureInfo.CurrentCulture));
                 }
                 else if (char.IsLower(c))
                 {
-                    sb.Append(char.ToUpper(c));
+                    sb.Append(char.ToUpper(c, CultureInfo.CurrentCulture));
                 }
                 else
                 {
