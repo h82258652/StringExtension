@@ -64,6 +64,7 @@
     <Compile Include="StringExtension.IsNullOrEmpty.cs" />
     <Compile Include="StringExtension.IsNullOrWhiteSpace.cs" />
     <Compile Include="StringExtension.IsUInt16.cs" />
+    <Compile Include="StringExtension.IsUInt32.cs" />
     <Compile Include="StringExtension.SwapCase.cs" />
     <Compile Include="StringExtension.ToDbc.cs" />
     <Compile Include="StringExtension.ToSbc.cs" />
