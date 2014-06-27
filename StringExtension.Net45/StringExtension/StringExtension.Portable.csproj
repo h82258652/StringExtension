@@ -50,6 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringExtension.AsInt16.cs" />
     <Compile Include="StringExtension.AsInt32.cs" />
+    <Compile Include="StringExtension.AsInt64.cs" />
     <Compile Include="StringExtension.Base64Decode.cs" />
     <Compile Include="StringExtension.Base64Encode.cs" />
     <Compile Include="StringExtension.Contains.cs" />
