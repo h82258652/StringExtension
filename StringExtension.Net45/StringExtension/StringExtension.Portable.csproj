@@ -57,11 +57,13 @@
     <Compile Include="StringExtension.cs" />
     <Compile Include="StringExtension.Equals.cs" />
     <Compile Include="StringExtension.IsDouble.cs" />
+    <Compile Include="StringExtension.IsEmail.cs" />
     <Compile Include="StringExtension.IsInt16.cs" />
     <Compile Include="StringExtension.IsInt32.cs" />
     <Compile Include="StringExtension.IsInt64.cs" />
     <Compile Include="StringExtension.IsNullOrEmpty.cs" />
     <Compile Include="StringExtension.IsNullOrWhiteSpace.cs" />
+    <Compile Include="StringExtension.IsUInt16.cs" />
     <Compile Include="StringExtension.SwapCase.cs" />
     <Compile Include="StringExtension.ToDbc.cs" />
     <Compile Include="StringExtension.ToSbc.cs" />
