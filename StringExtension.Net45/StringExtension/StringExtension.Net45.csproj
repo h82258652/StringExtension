@@ -49,10 +49,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExtension.AsInt16.cs" />
+    <Compile Include="StringExtension.AsInt32.cs" />
+    <Compile Include="StringExtension.AsInt64.cs" />
     <Compile Include="StringExtension.Base64Decode.cs" />
     <Compile Include="StringExtension.Base64Encode.cs" />
     <Compile Include="StringExtension.Contains.cs" />
     <Compile Include="StringExtension.cs" />
+    <Compile Include="StringExtension.Equals.cs" />
+    <Compile Include="StringExtension.IsDouble.cs" />
+    <Compile Include="StringExtension.IsInt16.cs" />
+    <Compile Include="StringExtension.IsInt32.cs" />
+    <Compile Include="StringExtension.IsInt64.cs" />
     <Compile Include="StringExtension.IsNullOrEmpty.cs" />
     <Compile Include="StringExtension.IsNullOrWhiteSpace.cs" />
     <Compile Include="StringExtension.SwapCase.cs" />
