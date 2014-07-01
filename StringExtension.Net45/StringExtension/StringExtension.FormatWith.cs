@@ -12,9 +12,8 @@ namespace System
         /// <returns>format 的一个副本，其中格式项已替换为 args 中相应对象的字符串表示形式。</returns>
         /// <exception cref="System.ArgumentNullException"><c>format</c> 或 <c>args</c> 为 null。</exception>
         /// <exception cref="System.FormatException"><c>format</c> 无效。 - 或 - 格式项的索引小于零或大于等于 <c>args</c> 数组的长度。</exception>
-        [SuppressMessage("Microsoft.Naming", "CA1719")]
         [SuppressMessage("Microsoft.Globalization", "CA1305")]
-        public static string Format(this string format, params object[] args)
+        public static string FormatWith(this string format, params object[] args)
         {
             return string.Format(format, args);
         }
@@ -28,8 +27,7 @@ namespace System
         /// <returns>format 的一个副本，其中格式项已替换为 args 中相应对象的字符串表示形式。</returns>
         /// <exception cref="System.ArgumentNullException"><c>format</c> 或 <c>args</c> 为 null。</exception>
         /// <exception cref="System.FormatException"><c>format</c> 无效。 - 或 - 格式项的索引小于零或大于等于 <c>args</c> 数组的长度。</exception>
-        [SuppressMessage("Microsoft.Naming", "CA1719")]
-        public static string Format(this string format, IFormatProvider provider, params object[] args)
+        public static string FormatWith(this string format, IFormatProvider provider, params object[] args)
         {
             return string.Format(provider, format, args);
         }

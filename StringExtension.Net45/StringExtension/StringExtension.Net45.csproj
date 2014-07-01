@@ -57,7 +57,7 @@
     <Compile Include="StringExtension.Contains.cs" />
     <Compile Include="StringExtension.cs" />
     <Compile Include="StringExtension.Equals.cs" />
-    <Compile Include="StringExtension.Format.cs" />
+    <Compile Include="StringExtension.FormatWith.cs" />
     <Compile Include="StringExtension.IsDouble.cs" />
     <Compile Include="StringExtension.IsEmail.cs" />
     <Compile Include="StringExtension.IsInt16.cs" />
