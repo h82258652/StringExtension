@@ -55,6 +55,7 @@
     <Compile Include="StringExtension.Base64Decode.cs" />
     <Compile Include="StringExtension.Base64Encode.cs" />
     <Compile Include="StringExtension.Contains.cs" />
+    <Compile Include="StringExtension.ContainsAll.cs" />
     <Compile Include="StringExtension.cs" />
     <Compile Include="StringExtension.Equals.cs" />
     <Compile Include="StringExtension.FormatWith.cs" />
