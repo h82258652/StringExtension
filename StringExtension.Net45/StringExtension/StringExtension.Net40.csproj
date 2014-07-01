@@ -57,7 +57,9 @@
     <Compile Include="StringExtension.Contains.cs" />
     <Compile Include="StringExtension.cs" />
     <Compile Include="StringExtension.Equals.cs" />
-    <Compile Include="StringExtension.Format.cs" />
+    <Compile Include="StringExtension.FormatWith.cs" />
+    <Compile Include="StringExtension.IsBoolean.cs" />
+    <Compile Include="StringExtension.IsDecimal.cs" />
     <Compile Include="StringExtension.IsDouble.cs" />
     <Compile Include="StringExtension.IsEmail.cs" />
     <Compile Include="StringExtension.IsInt16.cs" />
@@ -65,9 +67,11 @@
     <Compile Include="StringExtension.IsInt64.cs" />
     <Compile Include="StringExtension.IsNullOrEmpty.cs" />
     <Compile Include="StringExtension.IsNullOrWhiteSpace.cs" />
+    <Compile Include="StringExtension.IsSingle.cs" />
     <Compile Include="StringExtension.IsUInt16.cs" />
     <Compile Include="StringExtension.IsUInt32.cs" />
     <Compile Include="StringExtension.IsUInt64.cs" />
+    <Compile Include="StringExtension.Replace.cs" />
     <Compile Include="StringExtension.SwapCase.cs" />
     <Compile Include="StringExtension.ToDbc.cs" />
     <Compile Include="StringExtension.ToSBC.cs" />
