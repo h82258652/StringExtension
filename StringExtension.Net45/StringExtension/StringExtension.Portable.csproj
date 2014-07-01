@@ -61,6 +61,7 @@
     <Compile Include="StringExtension.IsDecimal.cs" />
     <Compile Include="StringExtension.IsDouble.cs" />
     <Compile Include="StringExtension.IsEmail.cs" />
+    <Compile Include="StringExtension.IsEnum.cs" />
     <Compile Include="StringExtension.IsInt16.cs" />
     <Compile Include="StringExtension.IsInt32.cs" />
     <Compile Include="StringExtension.IsInt64.cs" />
