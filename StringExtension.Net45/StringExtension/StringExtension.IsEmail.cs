@@ -4,7 +4,7 @@ namespace System
 {
     public static partial class StringExtension
     {
-#if Net40||Portable
+#if Net40Client||Net40||Portable
         /// <summary>
         /// 指示指定字符串是否为 E-mail 地址。
         /// </summary>

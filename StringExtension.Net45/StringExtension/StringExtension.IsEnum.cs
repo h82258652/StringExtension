@@ -1,4 +1,6 @@
 ﻿
+using System.Diagnostics.CodeAnalysis;
+
 namespace System
 {
     public static partial class StringExtension
@@ -10,6 +12,7 @@ namespace System
         /// <param name="value">当前 System.String 对象。</param>
         /// <returns>能否转换为枚举值。</returns>
         /// <exception cref="System.ArgumentException"><c>T</c> 不是枚举类型。</exception>
+        [SuppressMessage("Microsoft.Design", "CA1004")]
         public static bool IsEnum<T>(this string value) where T : struct, IComparable, IFormattable
 #if !Portable
 , IConvertible
@@ -27,6 +30,7 @@ namespace System
         /// <param name="ignoreCase">是否区分大小写。</param>
         /// <returns>能否转换为枚举值。</returns>
         /// <exception cref="System.ArgumentException"><c>T</c> 不是枚举类型。</exception>
+        [SuppressMessage("Microsoft.Design", "CA1004")]
         public static bool IsEnum<T>(this string value, bool ignoreCase) where T : struct ,IComparable, IFormattable
 #if !Portable
 , IConvertible
