@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Text;
 
 namespace System
 {
@@ -10,7 +11,8 @@ namespace System
         /// <param name="value">需要转换的字符串。</param>
         /// <returns>转换后的字符串。</returns>
         /// <exception cref="System.ArgumentNullException"><c>value</c> 为 null。</exception>
-        public static string ToSbc(this string value)
+        [SuppressMessage("Microsoft.Naming", "CA1709")]
+        public static string ToSBC(this string value)
         {
             if (value == null)
             {
@@ -44,13 +46,14 @@ namespace System
         /// </summary>
         /// <param name="value">需要转换的字符串。</param>
         /// <returns>转换后的字符串。</returns>
-        public static string ToSbcSafely(this string value)
+        [SuppressMessage("Microsoft.Naming", "CA1709")]
+        public static string ToSBCSafely(this string value)
         {
             if (string.IsNullOrEmpty(value))
             {
                 return value;
             }
-            return ToSbc(value);
+            return ToSBC(value);
         }
     }
 }

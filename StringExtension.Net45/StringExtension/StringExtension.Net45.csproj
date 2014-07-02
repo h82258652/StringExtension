@@ -41,6 +41,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,11 +56,14 @@
     <Compile Include="StringExtension.Base64Decode.cs" />
     <Compile Include="StringExtension.Base64Encode.cs" />
     <Compile Include="StringExtension.Contains.cs" />
+    <Compile Include="StringExtension.ContainsAll.cs" />
     <Compile Include="StringExtension.cs" />
     <Compile Include="StringExtension.Equals.cs" />
     <Compile Include="StringExtension.FormatWith.cs" />
+    <Compile Include="StringExtension.IsBigInteger.cs" />
     <Compile Include="StringExtension.IsBoolean.cs" />
     <Compile Include="StringExtension.IsByte.cs" />
+    <Compile Include="StringExtension.IsDateTime.cs" />
     <Compile Include="StringExtension.IsDecimal.cs" />
     <Compile Include="StringExtension.IsDouble.cs" />
     <Compile Include="StringExtension.IsEmail.cs" />
@@ -76,8 +80,8 @@
     <Compile Include="StringExtension.IsUInt64.cs" />
     <Compile Include="StringExtension.Replace.cs" />
     <Compile Include="StringExtension.SwapCase.cs" />
-    <Compile Include="StringExtension.ToDbc.cs" />
-    <Compile Include="StringExtension.ToSbc.cs" />
+    <Compile Include="StringExtension.ToDBC.cs" />
+    <Compile Include="StringExtension.ToSBC.cs" />
     <Compile Include="StringExtension.Trim.cs" />
     <Compile Include="StringExtension.TrimEnd.cs" />
     <Compile Include="StringExtension.TrimStart.cs" />
