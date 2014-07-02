@@ -77,7 +77,7 @@
     <Compile Include="StringExtension.Replace.cs" />
     <Compile Include="StringExtension.SwapCase.cs" />
     <Compile Include="StringExtension.ToDbc.cs" />
-    <Compile Include="StringExtension.ToSBC.cs" />
+    <Compile Include="StringExtension.ToSbc.cs" />
     <Compile Include="StringExtension.Trim.cs" />
     <Compile Include="StringExtension.TrimEnd.cs" />
     <Compile Include="StringExtension.TrimStart.cs" />
